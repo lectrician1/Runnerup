@@ -1,0 +1,22 @@
+{
+  "name": "runnerup",
+  "version": "0.0.1",
+  "description": "NCHS' XCTF App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lectrician1/Runnerup.git"
+  },
+  "keywords": [
+    "XC"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lectrician1/Runnerup/issues"
+  },
+  "homepage": "https://github.com/lectrician1/Runnerup#readme"
+}
