@@ -1,0 +1,9 @@
+{
+  "name": "Runnerup",
+  "description": "NCHS\'s XCTF app.",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "^4.16.4",
+    "pg": "^7.4.3"
+  }
+}
