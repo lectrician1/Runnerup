@@ -4,10 +4,10 @@ const path = require('path');
 console.log('Running webpack')
 
 module.exports = {
-  entry: './index.js',
+  entry: 'index.js',
 
   output: {
-    path: path.resolve('dist'),
+    path: path.join(__dirname, 'dist'),
     filename: 'bundle.js'
   },
 
