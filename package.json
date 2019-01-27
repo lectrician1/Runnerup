@@ -2,6 +2,10 @@
   "name": "Runnerup",
   "description": "NCHS XCTF app.",
   "version": "0.0.1",
+  "scripts": {
+    "start": "node src/server/index.js",
+    "heroku-postbuild": "webpack --mode production"
+  },
   "dependencies": {
     "express": "^4.16.4",
     "pg": "^7.4.3",
