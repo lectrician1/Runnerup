@@ -3,7 +3,7 @@
   "description": "NCHS XCTF app.",
   "version": "0.0.1",
   "scripts": {
-    "start": "node app.js",
+    "start": "node server.js",
     "heroku-postbuild": "webpack --mode production"
   },
   "dependencies": {
