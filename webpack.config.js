@@ -1,6 +1,8 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require('path');
 
+console.log('Running webpack')
+
 module.exports = {
   entry: './index.js',
 
