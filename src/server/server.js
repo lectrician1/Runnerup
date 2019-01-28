@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 const port = process.env.PORT
 
-app.use(express.static('../client'));
+app.use(express.static(__dirname + '/../client'));
 
 app.listen(port, () => console.log(`App listening on port ${port}!`))
  
