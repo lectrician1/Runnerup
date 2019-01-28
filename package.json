@@ -3,7 +3,7 @@
   "description": "NCHS XCTF app.",
   "version": "0.0.1",
   "scripts": {
-    "start": "node server.js",
+    "start": "node ./src/server/server.js",
     "heroku-postbuild": "webpack -p"
   },
   "devDependencies": {
@@ -22,6 +22,7 @@
     "express": "^4.16.4",
     "pg": "^7.4.3",
     "react": "^16.7.0",
-    "react-dom": "^16.7.0"
+    "react-dom": "^16.7.0",
+    "react-native": "^0.58.1"
   }
 }
